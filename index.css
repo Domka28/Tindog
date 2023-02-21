@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    max-width: 550px;
+
+}
+
+header,
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    justify-content: space-between;
+    margin: 0.5em 0;
+}
+
+#buttons {
+    justify-content: center;
+}
+
+.icons {
+    width: 34px;
+    height: 34px;
+}
+
+.logo {
+    width: 84px;
+    height: 42px;
+}
+
+.dog-photos {
+    max-width: 534px;
+    height: 752px;
+    border-radius: 0.5em;
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 534px;
+    height: 752px;
+}
+
+.desc-absolute {
+    position: absolute;
+    left: 10px;
+    bottom: -5px;
+    color: white;
+}
+
+.dog-info {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.2em;
+}
+
+.bio {
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+.button {
+    padding: 1.5em 1.5em;
+    border-radius: 50%;
+    background: white;
+    margin: 0 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-heart:hover,
+.button-heart:focus {
+    background-color: #DBFFF4;
+}
+
+.button-cross:hover,
+.button-cross:focus {
+    background-color: #FFE7EF;
+    ;
+}
+
+#buttons {
+    margin: 10px 0;
+}
+
+.cross {
+    width: 35px;
+    height: 35px;
+}
+
+.heart {
+    width: 35px;
+    height: 35px;
+}
+
+.like {
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    top: 75px;
+    left: 18px;
+    transform: rotate(-45deg);
+}
+
+.nope {
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    top: 75px;
+    left: 18px;
+    transform: rotate(-45deg);
+}
+
+.end-dogs {
+    min-height: 600vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+
+}
+
+.end-text {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50vh;
+}
+
+@media (min-width: 550px) {
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .logo {
+        margin: 0 12rem;
+    }
+
+    .main-content {
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
