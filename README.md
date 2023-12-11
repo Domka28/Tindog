@@ -3,3 +3,5 @@ The application humorously presents pictures of dogs and allows for swiping righ
 depending on whether we like the photo.
 
 The mini-application was developed for learning and expanding skills related to JavaScript, CSS, and HTML.
+
+Link to the deployed website: https://domka28.github.io/Tindog/
